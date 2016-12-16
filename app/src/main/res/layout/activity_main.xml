@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sketch.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tableLayout"
+        android:id="@+id/sketch_area"
+        android:orientation="vertical">
+        <com.example.android.sketch.DrawingView  android:id="@+id/drawing"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.7"
+            android:background="#FFFFFFFF" />
+    </LinearLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:stretchColumns="0,1,2"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tableLayout">
+        <TableRow>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:id="@+id/reset_button"
+                android:text="Reset"/>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:id="@+id/undo_button"
+                android:text="Undo"/>
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:id="@+id/finish_button"
+                android:text="Done"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
