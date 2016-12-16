@@ -12,7 +12,7 @@ The app has been tested on a Nexus 9 tablet.
 
 ###Usage
 
-![Screenshot](screenshot.png =250x)
+![Screenshot](screenshot.png)
 
 1. The app interface in minimal and looks as above.
 2. The majority is a blank canvas, with three buttons at the bottom.
