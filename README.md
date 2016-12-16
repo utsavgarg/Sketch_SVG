@@ -8,7 +8,7 @@ This application providrs a canvas for the user to draw and allows them to save 
 2. Feed in the ```ip address``` and ```port``` in the app script.
 3. Build the app and run it on a phone or emulator.
 
-The app has been tested on Nexus 9 tablet.
+The app has been tested on a Nexus 9 tablet.
 
 ###Usage
 
