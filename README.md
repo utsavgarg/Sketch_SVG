@@ -2,7 +2,7 @@
 An Android app to save sketches in SVG format
 This application providrs a canvas for the user to draw and allows them to save the drawing as a SVG file on the server.
 
-###Setup
+### Setup
 
 1. Run the ```server.py``` program on a server or computer.
 2. Feed in the ```ip address``` and ```port``` in the app script.
@@ -10,7 +10,7 @@ This application providrs a canvas for the user to draw and allows them to save 
 
 The app has been tested on a Nexus 9 tablet.
 
-###Usage
+### Usage
 
 <img src="/screenshot.png" alt="Screenshot" width="50%">
 
