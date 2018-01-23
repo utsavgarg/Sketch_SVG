@@ -1,6 +1,6 @@
 # Sketch_SVG
 An Android app to save sketches in SVG format
-This application providrs a canvas for the user to draw and allows them to save the drawing as a SVG file on the server.
+This application provides a canvas for the user to draw and allows them to save the drawing as a SVG file on the server. For this it extracts vertices from the drawings and sends them over to a server, where cubic bezier curves are fit to those vertices and finally the curves are saved as an SVG.
 
 ### Setup
 
